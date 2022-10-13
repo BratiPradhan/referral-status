@@ -56,7 +56,7 @@ export default function Candidate({ candidate }) {
         <button
           onClick={() =>
             toast.success(
-              `Congrats! 🎉 ${candidate.name} has recieved $2000 reward points`
+              `Congrats! 🎉 You have recieved $2000 reward points`
             )
           }
           disabled={!referred || !interviewed || !hired || !joined}
